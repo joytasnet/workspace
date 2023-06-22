@@ -3,9 +3,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
-
 public class SushiApp {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in) ;
 		List<String> data=new ArrayList<>();
@@ -23,7 +21,5 @@ public class SushiApp {
 		System.out.println("今日は");
 		System.out.println(set);
 		System.out.println(set.size()+"種類のネタを食べました!");
-
 	}
-
 }
